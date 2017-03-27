@@ -28,6 +28,7 @@ namespace ProgramaConsole
             Console.WriteLine("Preço Total: " + (refri.Preco + pipoca.Preco + ingresso.Preco));
             Console.WriteLine("Valor com desconto: " + kit.Preco);
 
+            
         }
     }
 }

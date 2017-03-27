@@ -44,11 +44,6 @@ namespace ExercicioRevisaoPadroes_2
             set { preco = value; }
         }
 
-        public Categoria Categoria
-        {
-            get { return categoria; }
-        }
-
         Produto IProduto.Produto
         {
             get
@@ -59,7 +54,7 @@ namespace ExercicioRevisaoPadroes_2
 
         public override string ToString()
         {
-            return base.ToString() + $"[codigo={Codigo}, descricao={Descricao}, quantidade={Quantidade}, preco={Preco}, categoria={Categoria}]";
+            return base.ToString() + $"[codigo={Codigo}, descricao={Descricao}, quantidade={Quantidade}, preco={Preco}]";
         }
     }
 }

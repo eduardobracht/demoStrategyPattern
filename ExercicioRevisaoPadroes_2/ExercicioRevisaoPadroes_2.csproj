@@ -40,14 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculadorDesconto.cs" />
-    <Compile Include="CalculadorImposto.cs" />
-    <Compile Include="Categoria.cs" />
     <Compile Include="KitPascoa.cs" />
     <Compile Include="KitPromocao.cs" />
-    <Compile Include="DescontoPoliticaUsuarioDependentes.cs" />
-    <Compile Include="DescontoPoliticaUsuarioIdoso.cs" />
-    <Compile Include="ImpostoPoliticaPorCategoria.cs" />
     <Compile Include="IProduto.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,8 +50,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Usuario.cs" />
-    <Compile Include="Venda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\Settings.settings">
