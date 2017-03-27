@@ -36,5 +36,15 @@ namespace ExercicioRevisaoPadroes_2
                 throw new NotImplementedException();
             }
         }
+
+        public override string ToString()
+        {
+            String lista = null;
+            foreach (Produto produto in Produtos)
+            {
+                lista += $"\n[codigo={produto.Codigo}, descricao={produto.Descricao}, quantidade={produto.Quantidade}, preco={produto.Preco}]";
+            }
+            return base.ToString() + lista;
+        }
     }
 }

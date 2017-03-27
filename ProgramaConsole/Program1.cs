@@ -13,8 +13,8 @@ namespace ProgramaConsole
         {
             List<IProduto> kitList = new List<IProduto>();
             Produto refri = new Produto(1, "Coca", 1, 5);
-            Produto pipoca = new Produto(1, "Pipoca", 1, 10);
-            Produto ingresso = new Produto(1, "Ingresso", 1, 25);
+            Produto pipoca = new Produto(2, "Pipoca", 1, 10);
+            Produto ingresso = new Produto(3, "Ingresso", 1, 25);
 
             kitList.Add(refri);
             kitList.Add(pipoca);
@@ -28,7 +28,9 @@ namespace ProgramaConsole
             Console.WriteLine("Preço Total: " + (refri.Preco + pipoca.Preco + ingresso.Preco));
             Console.WriteLine("Valor com desconto: " + kit.Preco);
 
-            
+            Console.WriteLine(kit.ToString());
+
+            Console.ReadLine();
         }
     }
 }
