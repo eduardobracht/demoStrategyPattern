@@ -12,7 +12,6 @@ namespace ExercicioRevisaoPadroes_2
         private string descricao;
         private int quantidade;
         private double preco;
-        private Categoria categoria;
 
         public Produto(int umCodigo, string umaDescricao, int umaQuantidade, double umPreco)
         {
@@ -20,7 +19,6 @@ namespace ExercicioRevisaoPadroes_2
             descricao = umaDescricao;
             quantidade = umaQuantidade;
             preco = umPreco;
-            categoria = umaCategoria;
         }
 
         public int Codigo

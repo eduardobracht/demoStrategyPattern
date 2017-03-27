@@ -11,7 +11,7 @@ namespace ProgramaConsole
     {
         public static void Main()
         {
-            List<IProduto> kitList = new List<Produto>();
+            List<IProduto> kitList = new List<IProduto>();
             Produto refri = new Produto(1, "Coca", 1, 5);
             Produto pipoca = new Produto(1, "Pipoca", 1, 10);
             Produto ingresso = new Produto(1, "Ingresso", 1, 25);
