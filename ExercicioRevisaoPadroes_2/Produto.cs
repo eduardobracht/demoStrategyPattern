@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExercicioRevisaoPadroes_2
 {
-    public class Produto
+    public class Produto : IProduto
     {
         private int codigo;
         private string descricao;
