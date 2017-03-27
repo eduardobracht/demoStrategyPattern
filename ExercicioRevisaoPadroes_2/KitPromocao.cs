@@ -8,8 +8,8 @@ namespace ExercicioRevisaoPadroes_2
 {
     abstract class KitPromocao : IProduto
     {
-        public abstract int Codigo { get; }
-        public abstract double Preco { get; set; }
+        public abstract Produto Produto { get; }
+        public abstract double Preco { get; }
         List<IProduto> produtos { get; }
     }
 }

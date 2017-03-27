@@ -8,22 +8,30 @@ namespace ExercicioRevisaoPadroes_2
 {
     class KitPascoa : KitPromocao
     {
-        public override int Codigo
+        List<IProduto> Produtos;
+        double total;
+
+        public KitPascoa(List<IProduto> produtos)
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
+            this.Produtos = new List<IProduto>(produtos);
         }
 
         public override double Preco
         {
             get
             {
-                throw new NotImplementedException();
+                total = 0;
+                foreach (IProduto produto in this.Produtos) {
+                    total += produto.Preco;
+                }
+                total = total - (total * 0.10);
+                return total;
             }
+        }
 
-            set
+        public override Produto Produto
+        {
+            get
             {
                 throw new NotImplementedException();
             }

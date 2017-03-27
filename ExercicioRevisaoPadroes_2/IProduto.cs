@@ -8,7 +8,7 @@ namespace ExercicioRevisaoPadroes_2
 {
     interface IProduto
     {
-        int Codigo { get; }
-        double Preco { get; set; }
+        Produto Produto { get; }
+        double Preco { get; }
     }
 }

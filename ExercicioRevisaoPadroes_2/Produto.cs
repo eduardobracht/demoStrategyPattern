@@ -51,6 +51,14 @@ namespace ExercicioRevisaoPadroes_2
             get { return categoria; }
         }
 
+        Produto IProduto.Produto
+        {
+            get
+            {
+                return this;
+            }
+        }
+
         public override string ToString()
         {
             return base.ToString() + $"[codigo={Codigo}, descricao={Descricao}, quantidade={Quantidade}, preco={Preco}, categoria={Categoria}]";
