@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExercicioRevisaoPadroes_2
 {
-    interface IProduto
+    public interface IProduto
     {
         Produto Produto { get; }
         double Preco { get; }

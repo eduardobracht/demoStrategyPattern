@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExercicioRevisaoPadroes_2
 {
-    class KitPascoa : KitPromocao
+    public class KitPascoa : KitPromocao
     {
         List<IProduto> Produtos;
         double total;

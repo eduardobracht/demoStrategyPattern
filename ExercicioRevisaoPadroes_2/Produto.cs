@@ -14,7 +14,7 @@ namespace ExercicioRevisaoPadroes_2
         private double preco;
         private Categoria categoria;
 
-        public Produto(int umCodigo, string umaDescricao, int umaQuantidade, double umPreco, Categoria umaCategoria)
+        public Produto(int umCodigo, string umaDescricao, int umaQuantidade, double umPreco)
         {
             codigo = umCodigo;
             descricao = umaDescricao;

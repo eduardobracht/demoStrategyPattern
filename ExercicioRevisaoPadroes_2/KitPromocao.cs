@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExercicioRevisaoPadroes_2
 {
-    abstract class KitPromocao : IProduto
+    public abstract class KitPromocao : IProduto
     {
         public abstract Produto Produto { get; }
         public abstract double Preco { get; }
